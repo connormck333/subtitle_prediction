@@ -1,60 +1,78 @@
 import json
 import xlsxwriter
 from PIL import Image
-import io
 import os
 
-dataFilePath = "/Users/connormckenzie/Documents/Projects/QUB/CSC1028/PyProject/data_VGG.json"
-frameFilePath = "/Users/connormckenzie/Documents/Projects/QUB/CSC1028/YoutubeFiles/images/"
+dataFilePath = "<PATH_TO_JSON_FILE>"
+frameFilePath = "<PATH_TO_FRAMES_FOLDER>"
+faceshotsFilePath = "<PATH_TO_FACESHOTS_FOLDER>"
 frameExtension = ".png"
 
-def outputDataToExcel(data):
+def outputDataToExcel(data, fileName):
 
     # try:
         # Create Excel sheet
         imgDimensionsSet = False
-
-        workbook = xlsxwriter.Workbook('results_VGG.xlsx')
+        workbook = xlsxwriter.Workbook(fileName + '.xlsx')
         worksheet = workbook.add_worksheet()
+        workbook.formats[0].set_font_size(16)
+        bold = workbook.add_format({'bold': True})
+        bold.set_font_size(18)
+
+        # Output clip data
+        clip = data['clip_data']
+        worksheet.write('A1', 'Title:', bold)
+        worksheet.write('B1', clip['title'])
+        worksheet.write('A2', 'Channel Name:', bold)
+        worksheet.write('B2', clip['yt_channel'])
+        worksheet.write('A3', 'Link to video:', bold)
+        worksheet.write('B3', clip['link'])
 
         # Add titles
-        bold = workbook.add_format({'bold': True})
-        worksheet.write('A1', 'Subtitle', bold)
-        worksheet.write('B1', 'Image', bold)
-        worksheet.write('C1', 'Speaker', bold)
-        worksheet.write('D1', 'Count', bold)
-        worksheet.write('E1', 'Match Score', bold)
-        worksheet.write('F1', 'Start', bold)
-        worksheet.write('G1', 'End', bold)
+        worksheet.write('A4', 'Frame ID', bold)
+        worksheet.write('B4', 'Subtitle', bold)
+        worksheet.write('C4', 'Frame', bold)
+        worksheet.write('D4', 'Speaker Image', bold)
+        worksheet.write('E4', 'Speaker ID', bold)
+        worksheet.write('F4', 'Count', bold) # No. times spotted in segment
+        worksheet.write('G4', 'Biometric Score', bold)
+        worksheet.write('H4', 'Start', bold)
+        worksheet.write('I4', 'End', bold)
 
         # Column widths
-        worksheet.set_column(0, 0, 40)
-        worksheet.set_column(2, 6, 20)
+        worksheet.set_column(0, 0, 20)
+        worksheet.set_column(1, 3, 40)
+        worksheet.set_column(4, 8, 20)
 
-        for i in data.keys():
-            index = int(i)
-            current = data[str(i)]
+        for index, current in enumerate(data['scenes']):
             print(index)
             
-            worksheet.write('A' + str(index + 2), current['subtitle'])
-            worksheet.write('C' + str(index + 2), current['name'])
-            worksheet.write('F' + str(index + 2), current['start'])
-            worksheet.write('G' + str(index + 2), current['end'])
+            worksheet.write('A' + str(index + 5), current['id'])
+            worksheet.write('B' + str(index + 5), current['text'])
+            worksheet.write('H' + str(index + 5), current['start'])
+            worksheet.write('I' + str(index + 5), current['end'])
             
-            if 'error' not in current.keys():
+            if len(current['cast'].keys()) != 0:
+                worksheet.write('E' + str(index + 5), current['cast']['id'])
+                worksheet.write('F' + str(index + 5), current['cast']['count'])
+                worksheet.write('G' + str(index + 5), current['cast']['bio_score'])
+
                 # Get image dimensions
-                imagePath = frameFilePath + current['image'] + frameExtension
+                imagePath = frameFilePath + current['cast']['img_code'] + frameExtension
+                faceshotPath = faceshotsFilePath + str(index) + frameExtension
                 if not imgDimensionsSet:
                     img = Image.open(imagePath)
-                    worksheet.set_column(1, 1, img.width / 100 * 5)
+                    worksheet.set_column(2, 3, img.width / 100 * 5)
                     print(img.width / 100 * 2)
-                    worksheet.set_default_row(img.height / 100 * 20)
-                    worksheet.set_row(0, 15)
+                    worksheet.set_default_row(img.height / 100 * 25)
+                    # worksheet.set_row(0, 15)
                     imgDimensionsSet = True
                 
-                worksheet.insert_image('B' + str(index + 2), imagePath, {'x_scale': 0.2, 'y_scale': 0.2})
-                worksheet.write('D' + str(index + 2), current['frameCount'])
-                worksheet.write('E' + str(index + 2), current['frameScore'])
+                worksheet.insert_image('C' + str(index + 5), imagePath, {'x_scale': 0.25, 'y_scale': 0.25})
+                if os.path.exists(faceshotPath):
+                    worksheet.insert_image('D' + str(index + 5), faceshotPath, {'x_scale': 0.5, 'y_scale': 0.5})
+                else:
+                    worksheet.write('D' + str(index + 5), 'Faceshot Not Found')
         
         workbook.close()
 
@@ -74,7 +92,7 @@ def openData(filePath):
 
 if __name__ == '__main__':
     jsonData = openData(dataFilePath)
-    res = outputDataToExcel(jsonData)
+    res = outputDataToExcel(jsonData, "Results_1")
     print(res['status'])
 
     if res['status'] == 'Failed':

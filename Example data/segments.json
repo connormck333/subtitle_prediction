@@ -1,0 +1,439 @@
+{
+    "clip_data": {
+        "title": "The Hunger Games (1/12) Movie CLIP - I Volunteer as Tribute! (2012) HD",
+        "yt_channel": "MovieClips",
+        "link": "https://www.youtube.com/watch?v=v98Rh9qzmPs&t=44s"
+    },
+    "scenes": [
+        {
+            "cast": {
+                "id": "1",
+                "count": 46,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/0090.png",
+                "img_code": "0090",
+                "bio_score": 0.4705967377544923
+            },
+            "id": 0,
+            "text": "Primrose Everdeen",
+            "start": "00:00:00.620000",
+            "end": "00:00:04.340000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 32,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/0249.png",
+                "img_code": "0249",
+                "bio_score": 0.54501224054243
+            },
+            "id": 1,
+            "text": "where are you",
+            "start": "00:00:09.420000",
+            "end": "00:00:12.320000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 73,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/0347.png",
+                "img_code": "0347",
+                "bio_score": 0.5653479480283374
+            },
+            "id": 2,
+            "text": "well come on up",
+            "start": "00:00:14.160000",
+            "end": "00:00:17.179000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 29,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/0890.png",
+                "img_code": "0890",
+                "bio_score": 0.5567327123968852
+            },
+            "id": 3,
+            "text": "[Music]",
+            "start": "00:00:36.910000",
+            "end": "00:00:38.100000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 31,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/0934.png",
+                "img_code": "0934",
+                "bio_score": 0.5678143175949698
+            },
+            "id": 4,
+            "text": "for him",
+            "start": "00:00:38.100000",
+            "end": "00:00:39.660000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 26,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1005.png",
+                "img_code": "1005",
+                "bio_score": 0.5580873455782707
+            },
+            "id": 5,
+            "text": "and",
+            "start": "00:00:39.660000",
+            "end": "00:00:41.899000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 70,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1010.png",
+                "img_code": "1010",
+                "bio_score": 0.5678726176926201
+            },
+            "id": 6,
+            "text": "come on dear I volunteer",
+            "start": "00:00:41.899000",
+            "end": "00:00:45.320000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 69,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1091.png",
+                "img_code": "1091",
+                "bio_score": 0.5654079239359315
+            },
+            "id": 7,
+            "text": "I volunteer as tribute",
+            "start": "00:00:45.320000",
+            "end": "00:00:49.260000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 58,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1262.png",
+                "img_code": "1262",
+                "bio_score": 0.5599106986698663
+            },
+            "id": 8,
+            "text": "I believe we have a volunteer",
+            "start": "00:00:49.260000",
+            "end": "00:00:52.760000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 39,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1302.png",
+                "img_code": "1302",
+                "bio_score": 0.5709704919780028
+            },
+            "id": 9,
+            "text": "I need to get out of here you need to",
+            "start": "00:00:52.760000",
+            "end": "00:00:55.199000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 34,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1332.png",
+                "img_code": "1332",
+                "bio_score": 0.5536796259540204
+            },
+            "id": 10,
+            "text": "get out of here go find Mom no I'm gonna",
+            "start": "00:00:55.199000",
+            "end": "00:00:57.180000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 27,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1425.png",
+                "img_code": "1425",
+                "bio_score": 0.5443456864561107
+            },
+            "id": 11,
+            "text": "go find Mom I know I'm so sorry oh my",
+            "start": "00:00:57.180000",
+            "end": "00:00:59.699000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 42,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1487.png",
+                "img_code": "1487",
+                "bio_score": 0.5604047614861927
+            },
+            "id": 12,
+            "text": "mom",
+            "start": "00:00:59.699000",
+            "end": "00:01:02"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 48,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1600.png",
+                "img_code": "1600",
+                "bio_score": 0.5596141077325933
+            },
+            "id": 13,
+            "text": "here in District 12.",
+            "start": "00:01:06.680000",
+            "end": "00:01:10.619000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 15,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1697.png",
+                "img_code": "1697",
+                "bio_score": 0.46383989718478336
+            },
+            "id": 14,
+            "text": "well",
+            "start": "00:01:10.619000",
+            "end": "00:01:11.880000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 46,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1725.png",
+                "img_code": "1725",
+                "bio_score": 0.5448689915647112
+            },
+            "id": 15,
+            "text": "District 12's very first volunteer bring",
+            "start": "00:01:11.880000",
+            "end": "00:01:15.420000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 50,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1825.png",
+                "img_code": "1825",
+                "bio_score": 0.530756243883218
+            },
+            "id": 16,
+            "text": "it up",
+            "start": "00:01:15.420000",
+            "end": "00:01:17.780000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 53,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/1942.png",
+                "img_code": "1942",
+                "bio_score": 0.5625847379772335
+            },
+            "id": 17,
+            "text": "come on dear",
+            "start": "00:01:20.159000",
+            "end": "00:01:22.939000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 59,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2240.png",
+                "img_code": "2240",
+                "bio_score": 0.5633676665138396
+            },
+            "id": 18,
+            "text": "what's your name",
+            "start": "00:01:31.320000",
+            "end": "00:01:34.280000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 37,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2320.png",
+                "img_code": "2320",
+                "bio_score": 0.5666380710479928
+            },
+            "id": 19,
+            "text": "well I bet my hat that was your sister",
+            "start": "00:01:35.280000",
+            "end": "00:01:37.320000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 30,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2362.png",
+                "img_code": "2362",
+                "bio_score": 0.508417028905482
+            },
+            "id": 20,
+            "text": "wasn't it",
+            "start": "00:01:37.320000",
+            "end": "00:01:39.659000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 33,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2424.png",
+                "img_code": "2424",
+                "bio_score": 0.5066174743419352
+            },
+            "id": 21,
+            "text": "yes",
+            "start": "00:01:39.659000",
+            "end": "00:01:41.880000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 43,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2457.png",
+                "img_code": "2457",
+                "bio_score": 0.5201106847279102
+            },
+            "id": 22,
+            "text": "let's have a big hand for our very first",
+            "start": "00:01:41.880000",
+            "end": "00:01:44.640000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 69,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2526.png",
+                "img_code": "2526",
+                "bio_score": 0.5092145402172805
+            },
+            "id": 23,
+            "text": "volunteer Katniss Everdeen",
+            "start": "00:01:44.640000",
+            "end": "00:01:49.040000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 49,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/2989.png",
+                "img_code": "2989",
+                "bio_score": 0.4865225851599325
+            },
+            "id": 24,
+            "text": "and now for the boys",
+            "start": "00:02:00.420000",
+            "end": "00:02:04.939000"
+        },
+        {
+            "cast": {
+                "id": "3",
+                "count": 57,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/3267.png",
+                "img_code": "3267",
+                "bio_score": 0.49246469365050494
+            },
+            "id": 25,
+            "text": "Peter malark",
+            "start": "00:02:13.620000",
+            "end": "00:02:17.120000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 36,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/3816.png",
+                "img_code": "3816",
+                "bio_score": 0.5123849078997025
+            },
+            "id": 26,
+            "text": "here we are",
+            "start": "00:02:38.360000",
+            "end": "00:02:40.680000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 62,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/3900.png",
+                "img_code": "3900",
+                "bio_score": 0.5401733880889745
+            },
+            "id": 27,
+            "text": "our tributes from District 12.",
+            "start": "00:02:40.680000",
+            "end": "00:02:45.180000"
+        },
+        {
+            "cast": {
+                "id": "2",
+                "count": 65,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/4000.png",
+                "img_code": "4000",
+                "bio_score": 0.5287826440721246
+            },
+            "id": 28,
+            "text": "welcome on YouTube shake hands",
+            "start": "00:02:45.180000",
+            "end": "00:02:49.160000"
+        },
+        {
+            "cast": {
+                "id": "3",
+                "count": 33,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/4169.png",
+                "img_code": "4169",
+                "bio_score": 0.45403799477084583
+            },
+            "id": 29,
+            "text": "[Music]",
+            "start": "00:02:51.090000",
+            "end": "00:02:54.249000"
+        },
+        {
+            "cast": {
+                "id": "0",
+                "count": 107,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/4363.png",
+                "img_code": "4363",
+                "bio_score": 0.5685325322235036
+            },
+            "id": 30,
+            "text": "happy Hunger Games and May the odds be",
+            "start": "00:03:00",
+            "end": "00:03:04.440000"
+        },
+        {
+            "cast": {
+                "id": "4",
+                "count": 44,
+                "image": "./drive/MyDrive/Projects/CSC1028/YoutubeFiles/images/4471.png",
+                "img_code": "4471",
+                "bio_score": 0.5507672736330153
+            },
+            "id": 31,
+            "text": "ever in your favor",
+            "start": "00:03:04.440000",
+            "end": "00:03:08.060000"
+        },
+        {
+            "cast": {},
+            "id": 32,
+            "text": "thank you",
+            "start": "00:03:17.840000",
+            "end": "00:03:20.840000"
+        },
+        {
+            "cast": {},
+            "id": 33,
+            "text": "[Music]",
+            "start": "00:03:24.620000",
+            "end": "00:03:38.700000"
+        }
+    ]
+}
